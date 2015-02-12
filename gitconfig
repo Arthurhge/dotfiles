@@ -49,3 +49,7 @@
 [user]
 	email = arthur@hagiage.com
 	name = Arthur Hagiage
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
